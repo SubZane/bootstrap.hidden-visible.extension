@@ -1,0 +1,237 @@
+.visible-phone-landscape {
+  display: none !important;
+}
+.visible-phone-portrait {
+  display: none !important;
+}
+.visible-phone {
+  display: none !important;
+}
+
+.visible-tablet-portrait {
+  display: none !important;
+}
+.visible-tablet-landscape {
+  display: none !important;
+}
+.visible-tablet {
+  display: none !important;
+}
+
+.hidden-desktop {
+  display: none !important;
+}
+.visible-desktop {
+  display: inherit !important;
+}
+
+/* phones (landscape) ----------- */
+@media (max-device-width: 767px) and (orientation : landscape) {
+  .hidden-phone-landscape {
+    display: none !important;
+  }
+  .hidden-phone-portrait {
+    display: inherit !important;
+  }
+  .hidden-phone {
+    display: none !important;
+  }
+
+  .visible-phone-landscape {
+    display: inherit !important;
+  }
+  .visible-phone-portrait {
+    display: none !important;
+  }
+  .visible-phone {
+    display: none !important;
+  }
+
+  /* Tablet */
+  .hidden-tablet-portrait {
+    display: inherit !important;
+  }
+  .hidden-tablet-landscape {
+    display: inherit !important;
+  }
+  .hidden-tablet {
+    display: inherit !important;
+  }
+
+  .visible-tablet-portrait {
+    display: none !important;
+  }
+  .visible-tablet-landscape {
+    display: none !important;
+  }
+  .visible-tablet {
+    display: none !important;
+  }
+
+  /* Desktop */
+  .hidden-desktop {
+    display: inherit !important;
+  }
+  .visible-desktop {
+    display: none !important;
+  }
+}
+
+/* phones (portrait) ----------- */
+@media(max-device-width:480px) and (orientation : portrait)  {
+  .hidden-phone-landscape {
+    display: inherit !important;
+  }
+  .hidden-phone-portrait {
+    display: none !important;
+  }
+  .hidden-phone {
+    display: none !important;
+  }
+
+  .visible-phone-landscape {
+    display: none !important;
+  }
+  .visible-phone-portrait {
+    display: inherit !important;
+  }
+  .visible-phone {
+    display: none !important;
+  }
+
+  /* Tablet */
+  .hidden-tablet-portrait {
+    display: inherit !important;
+  }
+  .hidden-tablet-landscape {
+    display: inherit !important;
+  }
+  .hidden-tablet {
+    display: inherit !important;
+  }
+
+  .visible-tablet-portrait {
+    display: none !important;
+  }
+  .visible-tablet-landscape {
+    display: none !important;
+  }
+  .visible-tablet {
+    display: none !important;
+  }
+
+  /* Desktop */
+  .hidden-desktop {
+    display: inherit !important;
+  }
+  .visible-desktop {
+    display: none !important;
+  }
+
+}
+
+/* tablet (portrait) ----------- */
+@media (min-device-width: 768px) and (orientation: portrait) {
+  .hidden-phone-landscape {
+    display: inherit !important;
+  }
+  .hidden-phone-portrait {
+    display: inherit !important;
+  }
+  .hidden-phone {
+    display: inherit !important;
+  }
+
+  .visible-phone-landscape {
+    display: none !important;
+  }
+  .visible-phone-portrait {
+    display: none !important;
+  }
+  .visible-phone {
+    display: none !important;
+  }
+
+  /* Tablet */
+  .hidden-tablet-portrait {
+    display: none !important;
+  }
+  .hidden-tablet-landscape {
+    display: inherit !important;
+  }
+  .hidden-tablet {
+    display: none !important;
+  }
+
+  .visible-tablet-portrait {
+    display: inherit !important;
+  }
+  .visible-tablet-landscape {
+    display: none !important;
+  }
+  .visible-tablet {
+    display: inherit !important;
+  }
+
+  /* Desktop */
+  .hidden-desktop {
+    display: inherit !important;
+  }
+  .visible-desktop {
+    display: none !important;
+  }
+
+}
+
+/* tablet (landscape) ----------- */
+@media (min-device-width : 768px) and (max-device-width:1024px) and (orientation: landscape) {
+  .hidden-phone-landscape {
+    display: inherit !important;
+  }
+  .hidden-phone-portrait {
+    display: inherit !important;
+  }
+  .hidden-phone {
+    display: inherit !important;
+  }
+
+  .visible-phone-landscape {
+    display: none !important;
+  }
+  .visible-phone-portrait {
+    display: none !important;
+  }
+  .visible-phone {
+    display: none !important;
+  }
+
+  /* Tablet */
+  .hidden-tablet-portrait {
+    display: inherit !important;
+  }
+  .hidden-tablet-landscape {
+    display: none !important;
+  }
+  .hidden-tablet {
+    display: none !important;
+  }
+
+  .visible-tablet-portrait {
+    display: none !important;
+  }
+  .visible-tablet-landscape {
+    display: inherit !important;
+  }
+  .visible-tablet {
+    display: inherit !important;
+  }
+
+  /* Desktop */
+  .hidden-desktop {
+    display: inherit !important;
+  }
+  .visible-desktop {
+    display: none !important;
+  }
+
+}
