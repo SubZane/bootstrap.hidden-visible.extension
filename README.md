@@ -3,6 +3,8 @@ Bootstrap hidden/visible Extension
 
 Extends and improves the Bootstrap 2.3.2 functionality to hide an display content depending on device, using css classes.
 
+These classes revamps the default bootstrap classes using device detection instead of just width and height detection. This means that you will not see any effect other than on the specific devices, no matter how you resize your desktop browser it's still detected as *desktop*
+
 
 | Class         | Phones portrait | Phones landscape  | Tablets portrait | Tablets landscape  | Desktop |
 | ------------- |:---------------:| -----------------:|-----------------:|-------------------:|--------:|
@@ -19,3 +21,9 @@ Extends and improves the Bootstrap 2.3.2 functionality to hide an display conten
 | `.hidden-tablet`             | **Visible**  | **Visible**  | Hidden  | Hidden  | **Visible**  |
 | `.hidden-desktop`           | **Visible**  | **Visible**  | **Visible**  | **Visible**  | Hidden  |
 | `.visible-desktop`          | Hidden  | Hidden  | Hidden  | Hidden  | **Visible**  |
+
+
+## Change log
+
+### Version 1.0
+* First release. Tested and *should* work as expected.
